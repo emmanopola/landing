@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/banner.css');
+@import url('components/cards.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.banner {
+  background-image: url(https://images.pexels.com/photos/1398688/pexels-photo-1398688.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: #FFF;
+  font-size: 32px;
+  text-shadow: 0.5px 0.5px #fff;
+}
+
+.banner p {
+  color: #FFF;
+  font-size: 28px;
+}
+
+.cards {
+     display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer {
+text-align: center;
+padding: 60px;
+background-color: #011627;
+color: #FFF;
+
+}
+
+.footer a {
+  font-size: 32px;
+  color: #FFCB47;
+}
+
+.fab {
+    text-align: center;
+    width: 1.25em;
+}
+/* Custom design below! */
+
